@@ -1,0 +1,41 @@
+body {
+  background-color: #000;
+}
+
+div {
+  line-height: 1;
+}
+
+.container {
+  color: #FFF;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 50px;
+  padding: 100px 20px 50px;
+}
+
+.buttons {
+  padding: 50px;
+}
+
+.buttons li {
+  display: inline;
+  padding: 5px;
+}
+
+.buttons a {
+  font-size: 18px;
+  line-height: 20px;
+  width: 70px;  
+}
+
+.buttons a.yes, .buttons a.yes:hover {
+  background: #080;
+}
+
+.buttons a.no, .buttons a.no:hover {
+  background: #A00;
+  font-size: 18px;
+}
